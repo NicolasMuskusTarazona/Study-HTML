@@ -1,0 +1,15 @@
+:root{
+    --color-1: white;
+    --color-2: rgb(36, 145, 36);
+    --color-3: black;
+}
+
+@font-face {
+    font-family: "SemiBoldItalic";
+    src: url(../stora/font/Inter/static/Inter_28pt-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url(../stora/font/Inter/static/Inter_18pt-Medium.ttf);
+}

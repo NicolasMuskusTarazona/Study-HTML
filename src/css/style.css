@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background-color: var(--color-1);
 }
 
@@ -11,15 +12,13 @@
     font-family: "SemiBoldItalic";
 }
 
-.img1{
-    width: 100px;
+.contenedor {
+    display: flex;
 }
-
 .p1{
     font-family: "Medium";
-    text-align: center;
-    position: relative;
-    top: -70px;
-    right: 80px;
-    background: transparent;
+}
+
+.img1{
+    width: 150px;
 }
